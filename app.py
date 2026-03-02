@@ -167,9 +167,7 @@ st.markdown("""
 <h1 style='text-align:center; margin-bottom:5px;'>
 AI Task Distribution System
 </h1>
-<p style='text-align:center; color:gray; margin-top:0;'>
-Enterprise AI-Powered Task Assignment Engine
-</p>
+
 <hr style='margin-top:15px; margin-bottom:25px;'>
 """, unsafe_allow_html=True)
 
@@ -285,3 +283,4 @@ if generate_clicked:
 
             except Exception:
                 st.error("A system error occurred. Please try again.")
+
